@@ -21,4 +21,10 @@ public class CalcTest {
 	}
 	
 
+	@Test
+	public void testAddNums3() {
+		assertEquals(10, calc.addNums(8, 2));
+	}
+	
+
 }
