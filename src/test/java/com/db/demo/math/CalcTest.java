@@ -26,5 +26,30 @@ public class CalcTest {
 		assertEquals(10, calc.addNums(8, 2));
 	}
 	
+	@Test
+	public void testSubtractNums() {
+		Integer expected = 10;
+		Integer actual = calc.addNums(30, 20);
+		assertEquals(expected, actual);
+
+	}
+
+	@Test
+	public void testSubtract2() {
+		assertEquals(-5, calc.addNums(5, 10));
+	}
+	@Test
+	public void testMultiplyNums() {
+		Integer expected = 10;
+		Integer actual = calc.addNums(2,5);
+		assertEquals(expected, actual);
+
+	}
+
+	@Test
+	public void testMultiply2() {
+		assertEquals(-25, calc.addNums(5,-5));
+	}
+	
 
 }
